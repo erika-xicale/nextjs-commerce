@@ -5,7 +5,7 @@ query GetCategoryProductsBySlug(
 ) {
   category(slug: $slug) {
     products(
-      channel: "proyecto705"
+      channel: "karlkarlas"
       first: 100
       sortBy: { field: $sortBy, direction: $sortDirection }
     ) {

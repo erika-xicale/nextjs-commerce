@@ -9,7 +9,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'api.proyecto705.com',
+        hostname: 'api.karlkarlas.com.mx',
       },
     ],
   },

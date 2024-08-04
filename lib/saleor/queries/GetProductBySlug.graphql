@@ -1,5 +1,5 @@
 query GetProductBySlug($slug: String!) {
-  product(channel: "proyecto705", slug: $slug) {
+  product(channel: "karlkarlas", slug: $slug) {
     ...ProductDetails
   }
 }

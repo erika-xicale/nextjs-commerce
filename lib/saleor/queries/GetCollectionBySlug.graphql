@@ -1,5 +1,5 @@
 query GetCollectionBySlug($slug: String!) {
-  collection(channel: "proyecto705", slug: $slug) {
+  collection(channel: "karlkarlas", slug: $slug) {
     id
     name
     slug

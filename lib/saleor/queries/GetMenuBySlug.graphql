@@ -10,7 +10,7 @@ fragment MenuItem on MenuItem {
   }
   category {
     slug
-    products(channel: "proyecto705", first: 0) {
+    products(channel: "karlkarlas", first: 0) {
       totalCount
     }
   }
@@ -21,7 +21,7 @@ fragment MenuItem on MenuItem {
 }
 
 query GetMenuBySlug($slug: String!) {
-  menu(slug: $slug, channel: "proyecto705") {
+  menu(slug: $slug, channel: "karlkarlas") {
     id
     slug
     name

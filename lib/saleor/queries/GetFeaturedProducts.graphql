@@ -1,5 +1,5 @@
 query GetFeaturedProducts($first: Int!) {
-  products(first: $first, channel: "proyecto705") {
+  products(first: $first, channel: "karlkarlas") {
     edges {
       node {
         ...FeaturedProduct

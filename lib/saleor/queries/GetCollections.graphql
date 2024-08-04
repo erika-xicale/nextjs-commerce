@@ -1,5 +1,5 @@
 query GetCollections {
-  collections(channel: "proyecto705", first: 100) {
+  collections(channel: "karlkarlas", first: 100) {
     edges {
       node {
         id
